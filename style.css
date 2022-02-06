@@ -236,3 +236,54 @@ html {
   }
 
 
+/****** Media queries
+  **************************/
+   
+  /* For Mobile  */
+
+  @media only screen and (max-width: 480px)  {
+    
+    /*  Styles for the deck of cards  */
+  
+   .deck {
+     width: 90%;
+   }
+ 
+   .deck .card {
+     height: 4.7rem;
+     width: 4.7rem;
+   }
+   .deck .card img{
+     height: 4.0rem;
+     width: 4.0rem;
+   }
+
+   .bloc{
+     width: 300px;
+     margin-top: 1rem;
+   }
+ }
+ 
+ /* For Tablets  */
+ 
+ @media (min-width: 480px) and (max-width: 1024px){
+ 
+   .deck {
+     width: 80%;
+   }
+ 
+   .deck .card {
+     height: 125px;
+     width: 125px;
+   }
+ 
+   .popup {
+     width: 60%;
+   }
+
+   .bloc{
+     width: 400px;
+     margin-top: 1rem;
+   }
+ }
+ 
